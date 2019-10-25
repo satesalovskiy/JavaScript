@@ -1,0 +1,34 @@
+#table {
+    border: 2px solid black;
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-spacing: 5px;
+    background-image: url("images/tbg.png");
+}
+.img {
+    width:120px;
+    height: 165px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px; 
+    visibility: visible;
+    opacity: 1;
+    transition: width 0.3s 250ms, height 0.3s 250ms, opacity 3s ;
+}
+td,th {
+    border: 0px solid black;
+}
+.bg {
+    position: absolute;
+    visibility: hidden;
+}
+body {
+    background-image: url("images/main_bg3.png");
+}
+.img:hover
+{
+    width: 115px;
+    height:160px;
+}
